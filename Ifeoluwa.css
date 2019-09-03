@@ -1,0 +1,89 @@
+
+button {
+    width:10%;
+    height:45px;
+    border-radius:3px;
+    background-color: rebeccapurple;
+    color: white;
+    font-family:'helvetica';
+    font-size:20px;
+    cursor:pointer
+    }
+    /* contact form */
+#wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:#313131;
+  display:none;
+  opacity:.95;
+  overflow:auto;
+}  
+#popupform{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background:rebeccapurple;
+  padding: 25px;
+  border-radius: 5px;
+}
+#popupform h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rebeccapurple;
+}
+
+img#close {
+  position:absolute;
+  right:0px;
+  top:0.5em;
+  left:327px;
+  cursor:pointer;
+  width:5%;
+  }
+#wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+#wrapper .input_field input[type="text"],
+#wrapper textarea{
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+#wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+#wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: rebeccapurple;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
